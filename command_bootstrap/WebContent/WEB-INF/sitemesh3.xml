@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<sitemesh>
+	<mapping decorator="/WEB-INF/views/decorator/default.jsp" path="/index.do"/>
+
+	<mapping decorator="/WEB-INF/views/decorator/iframe.jsp" path="/main.do"/>
+
+	<mapping decorator="/WEB-INF/views/decorator/iframe.jsp" path="/**/*"/>
+
+		<mapping path="*/common/*" excludes="true"/>
+</sitemesh>
